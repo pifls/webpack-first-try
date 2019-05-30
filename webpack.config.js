@@ -41,6 +41,7 @@ module.exports = {
             template: "./src/index.html",
             filename: "./index.html"
         }),
+        // required for build
         new MiniCssExtractPlugin({
             filename: "[name].css",
             chunkFilename: "[id].css"
